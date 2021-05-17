@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <title>
+
+        Li CHI LIN
+
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600" rel="stylesheet"
+        type="text/css">
+    <link href="assets/css/toolkit-startup.css" rel="stylesheet">
+    <link href="assets/css/application-startup.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="homepage.css" type="text/css">
+
+
+    <style>
+        /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+        /* this chunk of css is not part of the toolkit :) */
+        /* …curses ios, etc… */
+        @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+            body {
+                width: 1px;
+                min-width: 100%;
+                *width: 100%;
+            }
+
+            #stage {
+                height: 1px;
+                overflow: auto;
+                min-height: 100vh;
+                -webkit-overflow-scrolling: touch;
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <!-- <div class="topnav"> -->
+        <a class="logo" href="#home-page">Jaden</a>
+        <ul>
+            <li> <a class="nav-link" href="#home-page">Home</a></li>
+            <li> <a class="nav-link" href="#about-page">About</a></li>
+            <li> <a class="nav-link" href="#exchange-page">MY LIFE</a></li>
+            <li> <a class="nav-link" href="#project-page">Project</a></li>
+            <li> <a class="nav-link" href="#project-page2">Project2</a></li>
+            <li><a class="nav-link" href="#contact-page">Contact me</a></li>
+        </ul>
+        <!-- </div> -->
+    </header>
+    <div class="stage overflow:hidden" id="stage">
+
+
+        <!-- Home page -->
+        <!-- <div class="container" id="home-page">
+                <nav class="navbar navbar-transparent navbar-padded fixed-right navbar-toggleable-sm">
+                    <button class="navbar-toggler navbar-toggler-right hidden-md-up" type="button" data-target="#stage"
+                        data-toggle="stage" data-distance="-250">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <a class="navbar-brand mr-auto" href="">
+                    </a>
+
+                    <div class="hidden-sm-down text-uppercase" id="homepage_navbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item px-1 ">
+                                <a class="nav-link" href="#home-page">Home</a>
+                            </li>
+                            <li class="nav-item px-1 ">
+                                <a class="nav-link" href="#about-page">About</a>
+                            </li>
+                            <li class="nav-item px-1 ">
+                                <a class="nav-link" href="#project-page">Project</a>
+                            </li>
+                            <li class="nav-item px-1 ">
+                                <a class="nav-link" href="#exchange-page">Exchange</a>
+                            </li>
+                            <li class="nav-item px-1 ">
+                                <a class="nav-link" href="#contact-page">Contact me</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </nav>
+            </div> -->
+        <div class="block"
+            style="background-image: url(https://images.chinatimes.com/newsphoto/2020-01-31/1024/20200131004055.jpg)"
+            id="home-page">
+
+
+            <!-- <div class="topnav">
+                <li class="nav-item px-1 ">
+                    <a class="nav-link" href="#home-page">Home</a>
+                </li>
+                <li class="nav-item px-1 ">
+                    <a class="nav-link" href="#about-page">About</a>
+                </li>
+                <li class="nav-item px-1 ">
+                    <a class="nav-link" href="#project-page">Project</a>
+                </li>
+                <li class="nav-item px-1 ">
+                    <a class="nav-link" href="#exchange-page">Exchange</a>
+                </li>
+                <li class="nav-item px-1 ">
+                    <a class="nav-link" href="#contact-page">Contact me</a>
+                </li>
+                </ul>
+            </div> -->
+            <!-- <div class="container" id="home-page">
+                <nav class="navbar navbar-transparent navbar-padded fixed-right navbar-toggleable-sm">
+                    <button class="navbar-toggler navbar-toggler-right hidden-md-up" type="button" data-target="#stage"
+                        data-toggle="stage" data-distance="-250">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <a class="navbar-brand mr-auto" href="">
+                    </a>
+
+                    <div class="hidden-sm-down text-uppercase" id="homepage_navbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item px-1 ">
+                                <a class="nav-link" href="#home-page">Home</a>
+                            </li>
+                            <li class="nav-item px-1 ">
+                                <a class="nav-link" href="#about-page">About</a>
+                            </li>
+                            <li class="nav-item px-1 ">
+                                <a class="nav-link" href="#project-page">Project</a>
+                            </li>
+                            <li class="nav-item px-1 ">
+                                <a class="nav-link" href="#exchange-page">Exchange</a>
+                            </li>
+                            <li class="nav-item px-1 ">
+                                <a class="nav-link" href="#contact-page">Contact me</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </nav>
+            </div> -->
+
+
+
+
+            <div class="block2_">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-lg-6 " id="home_header">
+                            <h1 class="block-title">Hi, I'm Jaden
+                                <br>I am ambitious and willing to do learn anything
+                                <br>Studying in Tsing Hua,From Taipei
+                            </h1>
+                            <p class="lead mb-4 text-muted">I’m a undergraduate student of Nation Tsing Hua University,
+                                pursuing my Bachelors in quantitative finance, computer scicence.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About page -->
+        <div class="block3 fade" id="about-page">
+            <div class="container2">
+                <!-- <div class="row"> -->
+
+                <div class="Resume" id="about-img">
+                    <iframe src="C:\Users\ASUS\Desktop\myblog\Resume_Chi-Lin,Li.pdf" width="100%"
+                        height="100%"></iframe>
+                    <!-- <embed src="assets/img/wanghongwen/Wang_Hong_Wen_Resume.pdf" width="800px" height="1000px"> -->
+                </div>
+                <div class="col-sm-6" id="about-text">
+                    <div class="text_aboutme">About me </div>
+
+                    <div class="first">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I wrote my first line of
+                        code a couple of weeks after I enter college, after I get exposure to it, I was fascinated
+                        by its charm. After typing some code, I can make some interfaces to make my idea becomes
+                        reality and have to ability to interact with others.<br><br></div>>
+
+                    <div class="first2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>I love to solve
+                            problems.
+                        </strong>Whether it’s finding the most elegant way to write a line of code or figuring out
+                        which chord fits best into a progression , I love the challenge of finding a way and
+                        discovering solutions. As long as there’s a problem to solve or a challenge to puzzle over,
+                        it’s bound to be something I love!<br><br></div>>
+
+                    <!-- <p class="lead mb-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I wrote my first line of
+                        code a couple of weeks after I enter college, after I get exposure to it, I was fascinated
+                        by its charm. After typing some code, I can make some interfaces to make my idea becomes
+                        reality and have to ability to interact with others.<br><br>
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>I love to solve problems.
+                        </strong>Whether it’s finding the most elegant way to write a line of code or figuring out
+                        which chord fits best into a progression , I love the challenge of finding a way and
+                        discovering solutions. As long as there’s a problem to solve or a challenge to puzzle over,
+                        it’s bound to be something I love!</p> -->
+
+                    <br><br>
+
+                    <div class="first3">
+                        <div class="Interest">
+                            <h5 style="color: white;">Interest - Filming and Basktball </h5>
+                            <img src="C:\Users\ASUS\Desktop\myblog\187241002_157053403048551_6833877833663834225_n.jpg"
+                                width=50% height="200px">
+                            <p><strong>Second place of Freshman competition</strong>
+                                <br>| 2018.11
+                            </p>
+                            <!-- <p>I play fingerstyle guitar when I have extra time (especially during COVID 😟) </p> -->
+                        </div>
+                        <!-- <div class="Myteam">
+                            <h5 style="color: white;">My BAsketball Team</h5>
+                            <img src="assets/img/wanghongwen/The_Charisma_Myth.png" height="200px">
+                            <br><br>
+                            <p>The Charisma Myth: How Anyone Can Master the Art and Science of Personal Magnetism
+                            </p>
+                            <p class="text-muted">By Olivia Fox Cabane</p>
+                        </div> -->
+                    </div>
+
+                </div>
+
+                <!-- </div> -->
+
+            </div>
+        </div>
+
+
+
+        <!-- mylife page -->
+        <div id="exchange-page">
+            <div class="block4">
+                <div class="container2">
+                    <!-- <div class="row"> -->
+
+                    <div class="Resume" id="about-img">
+                        <img src="C:\Users\ASUS\Desktop\myblog\myself.jpg" width=100% height=100%>
+                        <!-- <embed src="assets/img/wanghongwen/Wang_Hong_Wen_Resume.pdf" width="800px" height="1000px"> -->
+                    </div>
+                    <div class="col-sm-6" id="about-text">
+                        <div class="text_aboutme">MY LIFE</div>
+
+                        <div class="second">
+                            <div class="Interest">
+                                <h5 style="color: white; text-align: center;">TEDxNTHU-2021 </h5>
+                                <img src="C:\Users\ASUS\Desktop\myblog\ted.jpg" width=100% height="300px">
+                                <!-- <p><strong>Second place of Freshman competition</strong>
+                                    <br>| 2018.11
+                                </p> -->
+                            </div>
+                        </div>
+
+                        <div class="second2">
+                            <div class="pdc">
+                                <h5 style="color: white;">NTHU Pop Dance Club </h5>
+                                <br>
+                                <img src="C:\Users\ASUS\Desktop\myblog\pdc.jpg" width=100% height="200px">
+                                <p><strong></strong>
+                                    <br>| 2018.12
+                                </p>
+                            </div>
+                            <div class="high-school">
+                                <h5 style="color: white;">National high school film festival </h5>
+                                <img src="C:\Users\ASUS\Desktop\myblog\high-school.jpg" width=90% height="200px">
+                                <p><strong>辦理全國高中職學生影音展覽比賽</strong>
+                                    <br>| 2016.02.04
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="countdown ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>I love to be
+                                myself
+                                ,aspiring for the activities I love.
+                            </strong>~~<br><br></div>>
+
+                        <!-- <p class="lead mb-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I wrote my first line of
+                            code a couple of weeks after I enter college, after I get exposure to it, I was fascinated
+                            by its charm. After typing some code, I can make some interfaces to make my idea becomes
+                            reality and have to ability to interact with others.<br><br>
+    
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>I love to solve problems.
+                            </strong>Whether it’s finding the most elegant way to write a line of code or figuring out
+                            which chord fits best into a progression , I love the challenge of finding a way and
+                            discovering solutions. As long as there’s a problem to solve or a challenge to puzzle over,
+                            it’s bound to be something I love!</p> -->
+
+                        <br><br>
+
+                        <!-- <div class="first3">
+                            <div class="Interest">
+                                <h5 style="color: white;">Interest - Filming and Basktball </h5>
+                                <img src="C:\Users\ASUS\Desktop\myblog\187241002_157053403048551_6833877833663834225_n.jpg"
+                                    width=50% height="200px">
+                                <p><strong>Second place of Freshman competition</strong>
+                                    <br>| 2018.11
+                                </p>
+                                <!-- <p>I play fingerstyle guitar when I have extra time (especially during COVID 😟) </p> -->
+                    </div>
+                    <!-- <div class="Myteam">
+                                <h5 style="color: white;">My BAsketball Team</h5>
+                                <img src="assets/img/wanghongwen/The_Charisma_Myth.png" height="200px">
+                                <br><br>
+                                <p>The Charisma Myth: How Anyone Can Master the Art and Science of Personal Magnetism
+                                </p>
+                                <p class="text-muted">By Olivia Fox Cabane</p>
+                            </div> -->
+                </div> -->
+
+            </div>
+
+            <!-- </div> -->
+
+        </div>
+    </div>
+    </div>
+
+    <!-- Project page -->
+
+    <div class="block5 block-inverse block-secondary app-code-block" id="project-page">
+        <div class="container2">
+
+            <div class="jpmorgan" id="about-img">
+                <iframe src="C:\Users\ASUS\Desktop\myblog\J.P Morgan AWMC_Project.pdf" width="100%"
+                    height="100%"></iframe>
+                <!-- <embed src="assets/img/wanghongwen/Wang_Hong_Wen_Resume.pdf" width="800px" height="1000px"> -->
+            </div>
+        </div>
+        <!-- <div class="container text-xs-center">
+        <div class="row app-marketing-grid">
+            <div class="col-md-4 px-4 mb-5" id="reaction-tester">
+                <h6 class="text-muted text-uppercase mb-2">Reaction tester</h6>
+                <img class="mb-1" src="assets/img/wanghongwen/project/reaction_tester.png" id="reaction-img">
+                <p class="project-link">
+                    <a
+                        href="http://bluebirdproject-com.stackstaging.com/CH3_Javascript/reaction-tester.html"><strong>Website</strong></a>
+                    <br>
+                    <a
+                        href="https://github.com/bluebird1337/Web-Development-Project/blob/master/CH3_JavaScript/reaction-tester.html"><strong>Github</strong></a>
+                </p>
+                <p> Use HTML, CSS and Javascript make a reaction tester website.</p>
+            </div>
+
+            <div class="col-md-4 px-4 mb-5" id="tower1">
+                <h6 class="text-muted text-uppercase mb-2">Tower defence Game</h6>
+                <img class="mb-1" src="assets/img/wanghongwen/project/cover.png" id="tower-img1">
+                <br><br>
+            </div>
+
+            <div class="col-md-4 px-4 mb-5" id="weather-scraper">
+                <h6 class="text-muted text-uppercase mb-2">PHP Weather scraper</h6>
+                <img class="mb-1" src="assets/img/wanghongwen/project/weather_scraper.png" id="weather-img">
+                <p class="project-link">
+                    <a href="http://bluebirdproject-com.stackstaging.com/CH5_PHP"><strong>Website</strong></a>
+                    <br>
+                    <a
+                        href="https://github.com/bluebird1337/Web-Development-Project/blob/master/CH6_php/index.php"><strong>Github</strong></a>
+                </p>
+                <p> Use PHP and bootstrap to create a website, which will show the weather of entered city.</p>
+            </div>
+        </div>
+
+        <div class="row app-marketing-grid">
+            <div class="col-md-4 px-4 mb-5" id="code-player">
+                <h6 class="text-muted text-uppercase mb-2">Online Code player</h6>
+                <img class="mb-1" src="assets/img/wanghongwen/project/code_player.png" id="codeplayer-img">
+                <p class="project-link">
+                    <a
+                        href="http://bluebirdproject-com.stackstaging.com/CH4_JQuery/code_player.html"><strong>Website</strong></a>
+                    <br>
+                    <a
+                        href="https://github.com/bluebird1337/Web-Development-Project/tree/master/CH4_JQuery"><strong>Github</strong></a>
+                </p>
+                <p> Make a website for editing HTML, CSS, Javascript with an instant output.</p>
+            </div>
+
+
+            <div class="col-md-4 px-4 mb-5" id="tower2">
+                <img class="mb-1" src="assets/img/wanghongwen/project/tower_cover.png" id="tower-img2">
+                <p class="project-link">
+                    <a
+                        href="https://github.com/bluebird1337/Tower_Defence_2019_demo"><strong>Github</strong></a>
+                </p>
+                <p> Use Allegro 5 make a tower defence game with total 7 window (Cover page, Menu, Guide, Start,
+                    Transition, Game over and Win)</p>
+            </div>
+
+            <div class="col-md-4 px-4 mb-5" id="diary">
+                <h6 class="text-muted text-uppercase mb-2">Online Note keeper</h6>
+                <img class="mb-1" src="assets/img/wanghongwen/project/diary.png" id="notekeeper-img">
+                <p class="project-link">
+                    <a
+                        href="http://bluebirdproject-com.stackstaging.com/CH6_MySQL/index.php"><strong>Website</strong></a>
+                    <br>
+                    <a
+                        href="https://github.com/bluebird1337/Web-Development-Project/tree/master/CH7_mySQL"><strong>Github</strong></a>
+                </p>
+                <p> Use Session, Cookie, PHP, MySQL and Bootstrap make a online note keeper, with a sign up /
+                    login system and implement database.</p>
+            </div>
+                 </div>
+            </div> -->
+    </div>
+    <!-- Project page -->
+
+    <div class="block6 block-inverse block-secondary app-code-block" id="project-page2">
+        <div class="container2">
+
+            <div class="jpmorgan" id="about-img">
+                <iframe src="C:\Users\ASUS\Desktop\myblog\J.P Morgan AWMC_Project.pdf" width="100%"
+                    height="100%"></iframe>
+                <!-- <embed src="assets/img/wanghongwen/Wang_Hong_Wen_Resume.pdf" width="800px" height="1000px"> -->
+            </div>
+        </div>
+        <!-- <div class="container text-xs-center">
+        <div class="row app-marketing-grid">
+            <div class="col-md-4 px-4 mb-5" id="reaction-tester">
+                <h6 class="text-muted text-uppercase mb-2">Reaction tester</h6>
+                <img class="mb-1" src="assets/img/wanghongwen/project/reaction_tester.png" id="reaction-img">
+                <p class="project-link">
+                    <a
+                        href="http://bluebirdproject-com.stackstaging.com/CH3_Javascript/reaction-tester.html"><strong>Website</strong></a>
+                    <br>
+                    <a
+                        href="https://github.com/bluebird1337/Web-Development-Project/blob/master/CH3_JavaScript/reaction-tester.html"><strong>Github</strong></a>
+                </p>
+                <p> Use HTML, CSS and Javascript make a reaction tester website.</p>
+            </div>
+
+            <div class="col-md-4 px-4 mb-5" id="tower1">
+                <h6 class="text-muted text-uppercase mb-2">Tower defence Game</h6>
+                <img class="mb-1" src="assets/img/wanghongwen/project/cover.png" id="tower-img1">
+                <br><br>
+            </div>
+
+            <div class="col-md-4 px-4 mb-5" id="weather-scraper">
+                <h6 class="text-muted text-uppercase mb-2">PHP Weather scraper</h6>
+                <img class="mb-1" src="assets/img/wanghongwen/project/weather_scraper.png" id="weather-img">
+                <p class="project-link">
+                    <a href="http://bluebirdproject-com.stackstaging.com/CH5_PHP"><strong>Website</strong></a>
+                    <br>
+                    <a
+                        href="https://github.com/bluebird1337/Web-Development-Project/blob/master/CH6_php/index.php"><strong>Github</strong></a>
+                </p>
+                <p> Use PHP and bootstrap to create a website, which will show the weather of entered city.</p>
+            </div>
+        </div>
+
+        <div class="row app-marketing-grid">
+            <div class="col-md-4 px-4 mb-5" id="code-player">
+                <h6 class="text-muted text-uppercase mb-2">Online Code player</h6>
+                <img class="mb-1" src="assets/img/wanghongwen/project/code_player.png" id="codeplayer-img">
+                <p class="project-link">
+                    <a
+                        href="http://bluebirdproject-com.stackstaging.com/CH4_JQuery/code_player.html"><strong>Website</strong></a>
+                    <br>
+                    <a
+                        href="https://github.com/bluebird1337/Web-Development-Project/tree/master/CH4_JQuery"><strong>Github</strong></a>
+                </p>
+                <p> Make a website for editing HTML, CSS, Javascript with an instant output.</p>
+            </div>
+
+
+            <div class="col-md-4 px-4 mb-5" id="tower2">
+                <img class="mb-1" src="assets/img/wanghongwen/project/tower_cover.png" id="tower-img2">
+                <p class="project-link">
+                    <a
+                        href="https://github.com/bluebird1337/Tower_Defence_2019_demo"><strong>Github</strong></a>
+                </p>
+                <p> Use Allegro 5 make a tower defence game with total 7 window (Cover page, Menu, Guide, Start,
+                    Transition, Game over and Win)</p>
+            </div>
+
+            <div class="col-md-4 px-4 mb-5" id="diary">
+                <h6 class="text-muted text-uppercase mb-2">Online Note keeper</h6>
+                <img class="mb-1" src="assets/img/wanghongwen/project/diary.png" id="notekeeper-img">
+                <p class="project-link">
+                    <a
+                        href="http://bluebirdproject-com.stackstaging.com/CH6_MySQL/index.php"><strong>Website</strong></a>
+                    <br>
+                    <a
+                        href="https://github.com/bluebird1337/Web-Development-Project/tree/master/CH7_mySQL"><strong>Github</strong></a>
+                </p>
+                <p> Use Session, Cookie, PHP, MySQL and Bootstrap make a online note keeper, with a sign up /
+                    login system and implement database.</p>
+            </div>
+                 </div>
+            </div> -->
+    </div>
+    <!-- Contact page
+        <div id="contact-page">
+            <div class="container" id="contact-container">
+                <h1 id="contact-header">Wang Hong Wen</h1>
+
+                <div class="row app-marketing-grid" id="contact-infomation">
+                    <div class="col-md-6" id="info-contact">
+
+                        <h1 id="contact-header2">CONTACT</h1>
+                        <p><a href="https://github.com/bluebird1337" class="contact-font">Github</a></p>
+                        <p><a href="https://www.linkedin.com/in/hong-wen-wang-509930195/"
+                                class="contact-font">Linkedln</a></p>
+                        <p><a href="https://www.facebook.com/profile.php?id=100004189260081"
+                                class="contact-font">Facebook</a></p>
+                        <p class="contact-font">Tel: (+886) 921-083-532</p>
+                        <p class="contact-font">whwen0528@gmail.com</p>
+
+                    </div>
+
+                    <div class="col-md-6 px-4 mb-5" id="email-contact">
+
+                        <h1 id="contact-header3">Looking forward to answering your email !</h1>
+                        <div id="display"></div>
+                        <form method="post">
+                            <fieldset class="form-group">
+                                <label for="subject">First Name</label>
+                                <input type="text" class="form-control" id="first-name" name="first-name">
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label for="subject">Last name</label>
+                                <input type="text" class="form-control" id="last-name" name="last-name">
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label for="email">Email address *</label>
+                                <input type="email" class="form-control" id="email" name="email"
+                                    placeholder="Enter email">
+                                <small class="text-muted">I'll never share your email with anyone else.</small>
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label for="subject">Subject *</label>
+                                <input type="text" class="form-control" id="subject" name="subject">
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label for="exampleTextarea">What would you like to ask me? *</label>
+                                <textarea class="form-control" id="content" name="contents" rows="3"></textarea>
+                            </fieldset>
+                            <button type="submit" name="submit" id="submit-btn" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+
+
+                </div>
+            </div>
+        </div> -->
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", Window.scrollY > 0);
+        })
+    </script>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/tether.min.js"></script>
+    <script src="assets/js/toolkit.js"></script>
+    <script src="assets/js/application.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        //control scroll movement
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+            // control guitar video
+        //     document.getElementById("play-guitar-video").onclick = function () {
+
+        //         if (document.getElementById("guitar-video").pause) {
+
+        //             document.getElementById("guitar-video").play();
+        //             this.innerHTML = "Pause";
+
+        //         } else {
+
+        //             document.getElementById("guitar-video").pause();
+        //             this.innerHTML = "Play";
+
+        //         }
+
+        //     }
+    </script>
+    <!-- 
+        <script type="text/javascript">
+
+            $("#submit-btn").onclick(function () {
+
+                $("form").submit(function (e) {
+
+                    var error = "";
+
+                    if ($("#email").val() == "") {
+                        error += "The Email address is required<br>";
+                    }
+
+                    if ($("#subject").val() == "") {
+                        error += "The subject is required<br>";
+                    }
+
+                    if ($("#content").val() == "") {
+                        error += "The content is required";
+                    }
+
+                    if (error != "") {
+
+                        $("#display").html('<div class="alert alert-danger" role="alert"><h4 class="alert-heading">There\'s some error(s) in your form.</h4>' + error + '</div>');
+
+                        return false;
+
+                    } else {
+
+                        return true;
+                    }
+
+                })
+
+
+            })
+
+
+
+        </script> -->
+
+
+
+
+    </div>
+    <!-- <img src="187053737_393177655133048_4885961324394629049_n.png" img /> -->
+
+</body>
